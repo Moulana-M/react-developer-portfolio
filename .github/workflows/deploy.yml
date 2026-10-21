@@ -27,7 +27,7 @@ jobs:
 
       # Build the project
       - name: Build project
-        run: npm run build
+        run: npm run build -- --base=/sheik-moulana-portfolio/
 
       # Deploy to GitHub pages
       - name: Deploy to GitHub pages

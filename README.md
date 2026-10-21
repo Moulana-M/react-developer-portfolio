@@ -4,7 +4,15 @@
 
 # [Sheik Moulana Portfolio](https://Moulana-M.github.io/sheik-moulana-portfolio/)
 
-Project name: `sheik-moulana-portfolio`. The Vite base path is `/sheik-moulana-portfolio/`, matching the intended GitHub Pages repository name. Deploy under that repository name to use the URL above; changing the local configuration does not rename or deploy a GitHub repository.
+Project name: `sheik-moulana-portfolio`. The default Vite base path is `/` for Vercel and other root-domain deployments. The GitHub Pages workflow overrides it to `/sheik-moulana-portfolio/` for a repository with that name. Changing the local configuration does not rename or deploy a remote repository.
+
+### Deploying to Vercel
+
+- Select the directory containing `package.json` as the Root Directory (`My_portfolio` if the repository contains this folder).
+- Use the **Vite** framework preset, build command `npm run build`, and output directory `dist`.
+- Leave the install command at its default. Do not override the build with a GitHub Pages `--base` path.
+- After pushing configuration changes, redeploy from the latest source so Vercel rebuilds the assets. Do not upload an older local `dist` build.
+- Open the deployment's root URL. Hash links such as `/#skills` do not need SPA rewrite rules.
 
 A sleek, futuristic portfolio template for developers – built with **React** and **Bootstrap 5**.
 
