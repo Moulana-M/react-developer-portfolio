@@ -1,0 +1,94 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            },
+            "ms": {
+                "title_short": "Pencapaian",
+                "title_short_nav": "Pencapaian",
+                "title_long_prefix": "Inilah",
+                "title_long": "{{Pencapaian}} Kerjaya Saya"
+            },
+            "ar": {
+                "title_short": "الإنجازات",
+                "title_short_nav": "الإنجازات",
+                "title_long_prefix": "إليك",
+                "title_long": "{{إنجازاتي}} المهنية"
+            },
+            "es": {
+                "title_short": "Logros",
+                "title_short_nav": "Logros",
+                "title_long_prefix": "Aquí están mis",
+                "title_long": "{{Logros}} Profesionales"
+            },
+            "fr": {
+                "title_short": "Réalis",
+                "title_short_nav": "Réalisations",
+                "title_long_prefix": "Voici",
+                "title_long": "Mes {{Réalisations}}"
+            },
+            "ko": {
+                "title_short": "경력 성과",
+                "title_short_nav": "경력 성과",
+                "title_long_prefix": "다음은",
+                "title_long": "{{경력 성과}}입니다"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "Saint-Gobain Hackathon – Second Place"},
+                "ms": {"title": "Hackathon Saint-Gobain – Tempat Kedua"},
+                "ar": {"title": "هاكاثون سان غوبان – المركز الثاني"},
+                "es": {"title": "Hackathon de Saint-Gobain – Segundo puesto"},
+                "fr": {"title": "Hackathon Saint-Gobain – Deuxième place"},
+                "ko": {"title": "생고뱅 해커톤 – 2위"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-trophy",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Saint-Gobain Hackathon – Second Place",
+                            "text": "Collaborated in a two-member team to develop an innovative solution and secured second place, demonstrating technical problem-solving and solution development skills."
+                        },
+                        "ms": {
+                            "title": "Hackathon Saint-Gobain – Tempat Kedua",
+                            "text": "Bekerjasama dalam pasukan dua orang untuk membangunkan penyelesaian inovatif dan meraih tempat kedua, menunjukkan kemahiran penyelesaian masalah teknikal dan pembangunan penyelesaian."
+                        },
+                        "ar": {
+                            "title": "هاكاثون سان غوبان – المركز الثاني",
+                            "text": "تعاونت ضمن فريق من شخصين لتطوير حل مبتكر وحصلنا على المركز الثاني، مما أظهر مهارات حل المشكلات التقنية وتطوير الحلول."
+                        },
+                        "es": {
+                            "title": "Hackathon de Saint-Gobain – Segundo puesto",
+                            "text": "Colaboré en un equipo de dos personas para desarrollar una solución innovadora y obtuvimos el segundo puesto, demostrando habilidades para resolver problemas técnicos y desarrollar soluciones."
+                        },
+                        "fr": {
+                            "title": "Hackathon Saint-Gobain – Deuxième place",
+                            "text": "J'ai collaboré au sein d'une équipe de deux personnes pour développer une solution innovante et nous avons obtenu la deuxième place, démontrant des compétences en résolution de problèmes techniques et en développement de solutions."
+                        },
+                        "ko": {
+                            "title": "생고뱅 해커톤 – 2위",
+                            "text": "2인 팀으로 협력하여 혁신적인 솔루션을 개발하고 2위를 차지했으며, 기술적 문제 해결 및 솔루션 개발 역량을 입증했습니다."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

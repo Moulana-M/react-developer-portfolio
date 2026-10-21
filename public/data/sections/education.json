@@ -1,0 +1,248 @@
+{
+    "title": {
+        "locales": {
+            "ms": {
+                "title_short": "Pendidikan",
+                "title_short_nav": "Pendidikan",
+                "title_long_prefix": "Inilah",
+                "title_long": "Latar Belakang {{Pendidikan}} Saya"
+            },
+            "ar": {
+                "title_short": "التعليم",
+                "title_short_nav": "التعليم",
+                "title_long_prefix": "هذه",
+                "title_long": "{{مسيرتي التعليمية}}"
+            },
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "This is my",
+                "title_long": "{{Education}} Background"
+            },
+            "es": {
+                "title_short": "Educación",
+                "title_short_nav": "Educación",
+                "title_long_prefix": "Esta es mi",
+                "title_long": "{{Formación}} Educativa"
+            },
+            "fr": {
+                "title_short": "Éducation",
+                "title_short_nav": "Éducation",
+                "title_long_prefix": "C'est mon",
+                "title_long": "{{Contexte}} Éducatif"
+            },
+            "ko": {
+                "title_short": "교육",
+                "title_short_nav": "교육",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{교육적}} 배경"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2024, "month": 6},
+                    "dateEnd": {"year": 2027, "month": 6},
+                    "locales": {
+                        "ms": {
+                            "title": "{{Ijazah Sarjana Muda}} Sains Komputer",
+                            "province": "Chennai",
+                            "country": "India",
+                            "institution": "Universiti Bharathidasan",
+                            "text": "[[Sedang mengikuti pengajian]]; dijangka tamat pada Jun 2027.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "ar": {
+                            "title": "{{بكالوريوس}} في علوم الحاسوب",
+                            "province": "تشيناي",
+                            "country": "الهند",
+                            "institution": "جامعة بهاراتيداسان",
+                            "text": "[[قيد الدراسة]]؛ من المتوقع التخرج في يونيو 2027.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "en": {
+                            "title": "{{Bachelor}} in Computer Science",
+                            "province": "Chennai",
+                            "country": "India",
+                            "institution": "Bharathidasan University",
+                            "text": "[[In progress]]; expected completion June 2027.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "{{Grado}} en Ciencias de la Computación",
+                            "province": "Chennai",
+                            "country": "India",
+                            "institution": "Universidad Bharathidasan",
+                            "text": "[[En curso]]; finalización prevista en junio de 2027.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "{{Licence}} en informatique",
+                            "province": "Chennai",
+                            "country": "Inde",
+                            "institution": "Université Bharathidasan",
+                            "text": "[[En cours]] ; fin prévue en juin 2027.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "ko": {
+                            "title": "컴퓨터 과학 {{학사}}",
+                            "province": "첸나이",
+                            "country": "인도",
+                            "institution": "바라티다산 대학교",
+                            "text": "[[재학 중]]; 2027년 6월 졸업 예정.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2009, "month": 5},
+                    "dateEnd": {"year": 2012, "month": 5},
+                    "locales": {
+                        "ms": {
+                            "title": "{{Diploma}} Kejuruteraan Perkakasan dan Acuan (Mekanikal)",
+                            "province": "Dindigul",
+                            "country": "India",
+                            "institution": "",
+                            "text": "[[Tamat]].",
+                            "list": [],
+                            "tags": []
+                        },
+                        "ar": {
+                            "title": "{{دبلوم}} في هندسة الأدوات والقوالب (الميكانيكية)",
+                            "province": "دينديغول",
+                            "country": "الهند",
+                            "institution": "",
+                            "text": "[[مكتمل]].",
+                            "list": [],
+                            "tags": []
+                        },
+                        "en": {
+                            "title": "{{Diploma}} in Tool & Die Engineering (Mechanical)",
+                            "province": "Dindigul",
+                            "country": "India",
+                            "institution": "",
+                            "text": "[[Completed]].",
+                            "list": [],
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "{{Diploma}} en Ingeniería de Herramientas y Matrices (Mecánica)",
+                            "province": "Dindigul",
+                            "country": "India",
+                            "institution": "",
+                            "text": "[[Completado]].",
+                            "list": [],
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "{{Diplôme}} en ingénierie des outils et matrices (mécanique)",
+                            "province": "Dindigul",
+                            "country": "Inde",
+                            "institution": "",
+                            "text": "[[Terminé]].",
+                            "list": [],
+                            "tags": []
+                        },
+                        "ko": {
+                            "title": "공구 및 금형 공학(기계) {{디플로마}}",
+                            "province": "딘디굴",
+                            "country": "인도",
+                            "institution": "",
+                            "text": "[[이수 완료]].",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2021, "month": 4},
+                    "dateEnd": {"year": 2021, "month": 11},
+                    "locales": {
+                        "ms": {
+                            "title": "Kursus Pembangunan {{React.js}}",
+                            "province": "Chennai",
+                            "country": "India",
+                            "institution": "SLA Institute of Technology",
+                            "text": "[[Tamat]].",
+                            "list": [],
+                            "tags": []
+                        },
+                        "ar": {
+                            "title": "دورة تطوير {{React.js}}",
+                            "province": "تشيناي",
+                            "country": "الهند",
+                            "institution": "SLA Institute of Technology",
+                            "text": "[[مكتملة]].",
+                            "list": [],
+                            "tags": []
+                        },
+                        "en": {
+                            "title": "{{React.js}} Development Course",
+                            "province": "Chennai",
+                            "country": "India",
+                            "institution": "SLA Institute of Technology",
+                            "text": "[[Completed]].",
+                            "list": [],
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "Curso de desarrollo con {{React.js}}",
+                            "province": "Chennai",
+                            "country": "India",
+                            "institution": "SLA Institute of Technology",
+                            "text": "[[Completado]].",
+                            "list": [],
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "Formation au développement avec {{React.js}}",
+                            "province": "Chennai",
+                            "country": "Inde",
+                            "institution": "SLA Institute of Technology",
+                            "text": "[[Terminée]].",
+                            "list": [],
+                            "tags": []
+                        },
+                        "ko": {
+                            "title": "{{React.js}} 개발 과정",
+                            "province": "첸나이",
+                            "country": "인도",
+                            "institution": "SLA Institute of Technology",
+                            "text": "[[이수 완료]].",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

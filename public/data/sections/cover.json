@@ -1,0 +1,344 @@
+{
+    "title": {
+        "locales": {
+            "ms": {
+                "title_short": "Selamat datang!",
+                "title_short_nav": "Tentang saya",
+                "title_long_prefix": "Helo...",
+                "title_long": "Saya {{Sheik Moulana!}}"
+            },
+            "ar": {
+                "title_short": "مرحبًا!",
+                "title_short_nav": "نبذة عني",
+                "title_long_prefix": "أهلًا...",
+                "title_long": "أنا {{شيخ مولانا!}}"
+            },
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Sheik Moulana!}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Sheik Moulana!}}"
+            },
+            "fr": {
+                "title_short": "Salut !",
+                "title_short_nav": "À propos",
+                "title_long_prefix": "Salut...",
+                "title_long": "Je suis {{Sheik Moulana !}}"
+            },
+            "ko": {
+                "title_short": "환영합니다!",
+                "title_short_nav": "소개",
+                "title_long_prefix": "안녕하세요...",
+                "title_long": "저는 {{Sheik Moulana}}입니다!"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "India - Chennai",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "moulanadie2@gmail.com",
+                    "link": {"href": "mailto:moulanadie2@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@Moulana-M",
+                    "link": {"href": "https://github.com/Moulana-M", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "ms": {"title": "{{Sedikit}} tentang saya..."},
+                "ar": {"title": "{{نبذة}} عني..."},
+                "es": {"title": "{{Un poco}} sobre mí..."},
+                "fr": {"title": "{{Un peu}} à propos de moi..."},
+                "ko": {"title": "저에 {{대해 조금}}..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "ms": {
+                            "text": "<p>Saya seorang Pembangun {{React.js}} dengan pengalaman [[hampir 5 tahun]] dalam pembangunan antara muka dan aplikasi web menyeluruh, dengan pengkhususan dalam membina aplikasi web yang responsif, boleh diskala dan mesra pengguna. Saya mempunyai pengalaman praktikal menggunakan React.js, JavaScript, HTML, CSS, Bootstrap, Node.js dan PostgreSQL.</p><p>Pengalaman saya merangkumi pembangunan komponen React yang boleh digunakan semula, penyepaduan API REST, pengurusan keadaan aplikasi, pengoptimuman prestasi dan pembinaan antara muka pengguna yang responsif. Saya juga berpengalaman menggunakan {{stack MERN}} dan amalan pembangunan antara muka moden.</p><p>Saya amat berminat untuk menghasilkan kod yang kemas dan mudah diselenggara serta membangunkan aplikasi web berkualiti tinggi yang memberikan pengalaman pengguna yang cemerlang. Saya berharap dapat [[bekerjasama dengan pasukan]] dan menyumbang kepada projek yang memberi impak.</p>"
+                        },
+                        "ar": {
+                            "text": "<p>أنا مطور {{React.js}} بخبرة [[تقارب 5 سنوات]] في تطوير الواجهات الأمامية والتطبيقات المتكاملة، ومتخصص في بناء تطبيقات ويب متجاوبة وقابلة للتوسع وسهلة الاستخدام. لدي خبرة عملية في React.js وJavaScript وHTML وCSS وBootstrap وNode.js وPostgreSQL.</p><p>تشمل خبرتي تطوير مكونات React قابلة لإعادة الاستخدام، وتكامل واجهات REST، وإدارة حالة التطبيق، وتحسين الأداء، وبناء واجهات مستخدم متجاوبة. ولدي أيضًا خبرة في العمل باستخدام {{حزمة MERN}} وممارسات تطوير الواجهات الأمامية الحديثة.</p><p>أحرص على كتابة شيفرة نظيفة وسهلة الصيانة وتقديم تطبيقات ويب عالية الجودة توفر تجارب مستخدم ممتازة. وأتطلع إلى [[التعاون مع الفرق]] والمساهمة في مشاريع ذات أثر ملموس.</p>"
+                        },
+                        "en": {
+                            "text": "<p>I’m a {{React.js}} Developer with [[nearly 5 years]] of experience in frontend and full-stack development, specializing in building responsive, scalable, and user-friendly web applications. I have hands-on experience with React.js, JavaScript, HTML, CSS, Bootstrap, Node.js, and PostgreSQL.</p><p>My experience includes developing reusable React components, integrating REST APIs, managing application state, optimizing performance, and building responsive user interfaces. I also have experience working with the {{MERN stack}} and modern frontend development practices.</p><p>I’m passionate about creating clean, maintainable code and delivering high-quality web applications that provide excellent user experiences. I look forward to [[collaborating with teams]] and contributing to impactful projects.</p>"
+                        },
+                        "es": {
+                            "text": "<p>Soy desarrollador de {{React.js}} con [[casi 5 años]] de experiencia en desarrollo frontend y full-stack, especializado en crear aplicaciones web adaptables, escalables y fáciles de usar. Tengo experiencia práctica con React.js, JavaScript, HTML, CSS, Bootstrap, Node.js y PostgreSQL.</p><p>Mi experiencia incluye el desarrollo de componentes reutilizables de React, la integración de API REST, la gestión del estado de las aplicaciones, la optimización del rendimiento y la creación de interfaces de usuario adaptables. También tengo experiencia con el {{stack MERN}} y las prácticas modernas de desarrollo frontend.</p><p>Me apasiona escribir código limpio y fácil de mantener, y desarrollar aplicaciones web de alta calidad que ofrezcan excelentes experiencias de usuario. Espero poder [[colaborar con equipos]] y contribuir a proyectos de gran impacto.</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Je suis développeur {{React.js}} avec [[près de 5 ans]] d'expérience en développement frontend et full-stack, spécialisé dans la création d'applications web adaptatives, évolutives et conviviales. J'ai une expérience pratique de React.js, JavaScript, HTML, CSS, Bootstrap, Node.js et PostgreSQL.</p><p>Mon expérience comprend le développement de composants React réutilisables, l'intégration d'API REST, la gestion de l'état des applications, l'optimisation des performances et la création d'interfaces utilisateur adaptatives. J'ai également de l'expérience avec la {{stack MERN}} et les pratiques modernes de développement frontend.</p><p>Je suis passionné par l'écriture de code propre et facile à maintenir, ainsi que par la création d'applications web de haute qualité offrant d'excellentes expériences utilisateur. Je souhaite [[collaborer avec des équipes]] et contribuer à des projets à fort impact.</p>"
+                        },
+                        "ko": {
+                            "text": "<p>저는 프론트엔드 및 풀스택 개발 분야에서 [[약 5년]]의 경력을 쌓아온 {{React.js}} 개발자로, 반응형이고 확장 가능하며 사용자 친화적인 웹 애플리케이션 개발을 전문으로 합니다. React.js, JavaScript, HTML, CSS, Bootstrap, Node.js, PostgreSQL을 활용한 실무 경험이 있습니다.</p><p>재사용 가능한 React 컴포넌트 개발, REST API 연동, 애플리케이션 상태 관리, 성능 최적화, 반응형 사용자 인터페이스 구현 경험이 있습니다. 또한 {{MERN 스택}}과 최신 프론트엔드 개발 방식에 대한 경험도 갖추고 있습니다.</p><p>깔끔하고 유지보수하기 쉬운 코드를 작성하고, 뛰어난 사용자 경험을 제공하는 고품질 웹 애플리케이션을 만드는 데 열정을 가지고 있습니다. [[팀과 협업]]하며 의미 있는 프로젝트에 기여하기를 기대합니다.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "ms": {"title": "{{Minat}} peribadi"},
+                "ar": {"title": "{{اهتماماتي}} الشخصية"},
+                "es": {"title": "Intereses {{personales}}"},
+                "fr": {"title": "Intérêts {{personnels}} "},
+                "ko": {"title": "개인 {{관심사}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-baseball-bat-ball",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{cricket}}",
+                            "text": "I enjoy playing cricket to stay active, build teamwork, and develop strategic thinking."
+                        },
+                        "ms": {
+                            "title": "Bermain {{kriket}}",
+                            "text": "Saya gemar bermain kriket untuk kekal aktif, memupuk kerjasama berpasukan dan mengembangkan pemikiran strategik."
+                        },
+                        "ar": {
+                            "title": "لعب {{الكريكيت}}",
+                            "text": "أستمتع بلعب الكريكيت للحفاظ على نشاطي وتعزيز العمل الجماعي وتنمية التفكير الاستراتيجي."
+                        },
+                        "es": {
+                            "title": "Jugar al {{críquet}}",
+                            "text": "Disfruto jugando al críquet para mantenerme activo, fomentar el trabajo en equipo y desarrollar el pensamiento estratégico."
+                        },
+                        "fr": {
+                            "title": "Jouer au {{cricket}}",
+                            "text": "J'aime jouer au cricket pour rester actif, renforcer l'esprit d'équipe et développer ma réflexion stratégique."
+                        },
+                        "ko": {
+                            "title": "{{크리켓}} 즐기기",
+                            "text": "크리켓을 즐기며 활동적인 생활을 유지하고 팀워크와 전략적 사고를 기릅니다."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-table-tennis-paddle-ball",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{badminton}}",
+                            "text": "I enjoy playing badminton to stay fit, improve my focus, and unwind in my free time."
+                        },
+                        "ms": {
+                            "title": "Bermain {{badminton}}",
+                            "text": "Saya gemar bermain badminton untuk kekal cergas, meningkatkan tumpuan dan bersantai pada masa lapang."
+                        },
+                        "ar": {
+                            "title": "لعب {{الريشة الطائرة}}",
+                            "text": "أستمتع بلعب الريشة الطائرة للحفاظ على لياقتي وتحسين تركيزي والاسترخاء في وقت فراغي."
+                        },
+                        "es": {
+                            "title": "Jugar al {{bádminton}}",
+                            "text": "Disfruto jugando al bádminton para mantenerme en forma, mejorar mi concentración y relajarme en mi tiempo libre."
+                        },
+                        "fr": {
+                            "title": "Jouer au {{badminton}}",
+                            "text": "J'aime jouer au badminton pour garder la forme, améliorer ma concentration et me détendre pendant mon temps libre."
+                        },
+                        "ko": {
+                            "title": "{{배드민턴}} 즐기기",
+                            "text": "배드민턴을 즐기며 체력을 유지하고 집중력을 높이며 여가 시간에 휴식을 취합니다."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-language",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Learning new {{languages}}",
+                            "text": "I enjoy learning new languages to connect with people from different backgrounds and broaden my understanding of other cultures."
+                        },
+                        "ms": {
+                            "title": "Mempelajari {{bahasa}} baharu",
+                            "text": "Saya gemar mempelajari bahasa baharu untuk berhubung dengan orang daripada pelbagai latar belakang dan memperluas pemahaman saya tentang budaya lain."
+                        },
+                        "ar": {
+                            "title": "تعلّم {{لغات}} جديدة",
+                            "text": "أستمتع بتعلّم لغات جديدة للتواصل مع أشخاص من خلفيات متنوعة وتوسيع فهمي للثقافات الأخرى."
+                        },
+                        "es": {
+                            "title": "Aprender nuevos {{idiomas}}",
+                            "text": "Disfruto aprendiendo nuevos idiomas para conectar con personas de distintos orígenes y ampliar mi comprensión de otras culturas."
+                        },
+                        "fr": {
+                            "title": "Apprendre de nouvelles {{langues}}",
+                            "text": "J'aime apprendre de nouvelles langues pour échanger avec des personnes de différents horizons et approfondir ma compréhension d'autres cultures."
+                        },
+                        "ko": {
+                            "title": "새로운 {{언어}} 배우기",
+                            "text": "새로운 언어를 배우며 다양한 배경의 사람들과 소통하고 다른 문화에 대한 이해를 넓히는 것을 즐깁니다."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{UX}} design",
+                            "text": "Studying user experience principles."
+                        },
+                        "ms": {
+                            "title": "Reka bentuk {{UX}}",
+                            "text": "Mempelajari prinsip pengalaman pengguna."
+                        },
+                        "ar": {
+                            "title": "تصميم {{تجربة المستخدم}}",
+                            "text": "أدرس مبادئ تجربة المستخدم."
+                        },
+                        "es": {
+                            "title": "Diseño {{UX}}",
+                            "text": "Estudiando los principios de la experiencia del usuario."
+                        },
+                        "fr": {
+                            "title": "Conception {{UX}}",
+                            "text": "Étudier les principes de l'expérience utilisateur."
+                        },
+                        "ko": {
+                            "title": "{{UX}} 디자인",
+                            "text": "사용자 경험 원칙을 공부하기."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-camera-retro",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Photography}} & Photoshop",
+                            "text": "Enhancing photos through creative editing techniques."
+                        },
+                        "ms": {
+                            "title": "{{Fotografi}} dan Photoshop",
+                            "text": "Menambah baik foto melalui teknik penyuntingan kreatif."
+                        },
+                        "ar": {
+                            "title": "{{التصوير}} وPhotoshop",
+                            "text": "أحسّن الصور باستخدام تقنيات تحرير إبداعية."
+                        },
+                        "es": {
+                            "title": "{{Fotografía}} y Photoshop",
+                            "text": "Mejorando fotos a través de técnicas creativas de edición."
+                        },
+                        "fr": {
+                            "title": "{{Photographie}} & Photoshop",
+                            "text": "Améliorer des photos avec des techniques de montage créatives."
+                        },
+                        "ko": {
+                            "title": "{{사진}} 및 포토샵",
+                            "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-drum-steelpan",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{drums}}",
+                            "text": "Exploring different genres and improving my skills."
+                        },
+                        "ms": {
+                            "title": "Bermain {{dram}}",
+                            "text": "Meneroka pelbagai genre muzik dan meningkatkan kemahiran saya."
+                        },
+                        "ar": {
+                            "title": "العزف على {{الطبول}}",
+                            "text": "أستكشف أنواعًا موسيقية مختلفة وأطور مهاراتي."
+                        },
+                        "es": {
+                            "title": "Tocar {{batería}}",
+                            "text": "Explorando diferentes géneros y mejorando mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Jouer de la {{batterie}}",
+                            "text": "Explorer différents genres et améliorer mes compétences."
+                        },
+                        "ko": {
+                            "title": "{{드럼}} 연주",
+                            "text": "다양한 장르를 탐험하고 기술을 향상시키기."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
