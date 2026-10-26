@@ -90,7 +90,7 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/about-texts-image-1.png",
+                    "img": "images/pictures/press-tool.svg",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
@@ -101,7 +101,7 @@
                             "text": "<p>أنا مطور {{React.js}} بخبرة [[تقارب 5 سنوات]] في تطوير الواجهات الأمامية والتطبيقات المتكاملة، ومتخصص في بناء تطبيقات ويب متجاوبة وقابلة للتوسع وسهلة الاستخدام. لدي خبرة عملية في React.js وJavaScript وHTML وCSS وBootstrap وNode.js وPostgreSQL.</p><p>تشمل خبرتي تطوير مكونات React قابلة لإعادة الاستخدام، وتكامل واجهات REST، وإدارة حالة التطبيق، وتحسين الأداء، وبناء واجهات مستخدم متجاوبة. ولدي أيضًا خبرة في العمل باستخدام {{حزمة MERN}} وممارسات تطوير الواجهات الأمامية الحديثة.</p><p>أحرص على كتابة شيفرة نظيفة وسهلة الصيانة وتقديم تطبيقات ويب عالية الجودة توفر تجارب مستخدم ممتازة. وأتطلع إلى [[التعاون مع الفرق]] والمساهمة في مشاريع ذات أثر ملموس.</p>"
                         },
                         "en": {
-                            "text": "<p>I’m a {{React.js}} Developer with [[nearly 5 years]] of experience in frontend and full-stack development, specializing in building responsive, scalable, and user-friendly web applications. I have hands-on experience with React.js, JavaScript, HTML, CSS, Bootstrap, Node.js, and PostgreSQL.</p><p>My experience includes developing reusable React components, integrating REST APIs, managing application state, optimizing performance, and building responsive user interfaces. I also have experience working with the {{MERN stack}} and modern frontend development practices.</p><p>I’m passionate about creating clean, maintainable code and delivering high-quality web applications that provide excellent user experiences. I look forward to [[collaborating with teams]] and contributing to impactful projects.</p>"
+                            "text": "<p>I’m a {{Press Tool Maker}} with [[13 years of experience]] in press tool making and maintenance. My work is focused on building and maintaining press tools to support reliable, high-quality production.</p><p>I take pride in careful workmanship, dependable tool maintenance, and working with teams to support production goals.</p><p><a class=\"btn btn-primary\" href=\"Sheik_Moulana_ToolMaker.pdf\" download=\"Sheik_Moulana_ToolMaker.pdf\"><i class=\"fa-solid fa-file-arrow-down\" aria-hidden=\"true\"></i> Download CV</a></p>"
                         },
                         "es": {
                             "text": "<p>Soy desarrollador de {{React.js}} con [[casi 5 años]] de experiencia en desarrollo frontend y full-stack, especializado en crear aplicaciones web adaptables, escalables y fáciles de usar. Tengo experiencia práctica con React.js, JavaScript, HTML, CSS, Bootstrap, Node.js y PostgreSQL.</p><p>Mi experiencia incluye el desarrollo de componentes reutilizables de React, la integración de API REST, la gestión del estado de las aplicaciones, la optimización del rendimiento y la creación de interfaces de usuario adaptables. También tengo experiencia con el {{stack MERN}} y las prácticas modernas de desarrollo frontend.</p><p>Me apasiona escribir código limpio y fácil de mantener, y desarrollar aplicaciones web de alta calidad que ofrezcan excelentes experiencias de usuario. Espero poder [[colaborar con equipos]] y contribuir a proyectos de gran impacto.</p>"

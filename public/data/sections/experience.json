@@ -53,128 +53,46 @@
                 {
                     "id": 1,
                     "img": "",
-                    "faIcon": "fa-solid fa-code",
+                    "faIcon": "fa-solid fa-screwdriver-wrench",
                     "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2025, "month": 6},
-                    "dateEnd": {"year": 2026, "month": 11},
+                    "dateStart": {"year": 2019, "month": 4},
+                    "dateEnd": {"now": true},
                     "locales": {
                         "en": {
-                            "title": "{{Software}} Engineer",
+                            "title": "Senior Engineer | Tool Maintenance",
                             "province": "",
                             "country": "",
-                            "institution": "Saint-Gobain",
-                            "text": "",
-                            "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI", "Vite", "GraphQL", "Node.js", "PostgreSQL", "Tailwind CSS"]
-                        },
-                        "es": {
-                            "title": "Ingeniero de {{Software}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Saint-Gobain",
-                            "text": "",
-                            "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI", "Vite", "GraphQL", "Node.js", "PostgreSQL", "Tailwind CSS"]
-                        },
-                        "fr": {
-                            "title": "Ingénieur {{logiciel}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Saint-Gobain",
-                            "text": "",
-                            "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI", "Vite", "GraphQL", "Node.js", "PostgreSQL", "Tailwind CSS"]
-                        },
-                        "ko": {
-                            "title": "{{소프트웨어}} 엔지니어",
-                            "province": "",
-                            "country": "",
-                            "institution": "Saint-Gobain",
-                            "text": "",
-                            "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI", "Vite", "GraphQL", "Node.js", "PostgreSQL", "Tailwind CSS"]
-                        },
-                        "ms": {
-                            "title": "Jurutera {{Perisian}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Saint-Gobain",
-                            "text": "",
-                            "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI", "Vite", "GraphQL", "Node.js", "PostgreSQL", "Tailwind CSS"]
-                        },
-                        "ar": {
-                            "title": "مهندس {{برمجيات}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Saint-Gobain",
-                            "text": "",
-                            "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI", "Vite", "GraphQL", "Node.js", "PostgreSQL", "Tailwind CSS"]
+                            "institution": "NASH INDUSTRIES PRIVATE LIMITED",
+                            "text": "A leading manufacturer of press tools and a supplier to leading companies such as Hyundai, Die Miller, Mando, Tenneco, Royal Enfield, and others.",
+                            "list": [
+                                "Make, repair, and maintain press tools, including cutting and non-cutting operations, welding, and matching.",
+                                "Perform preventive and breakdown maintenance, die spotting, and tool try-out to keep production running smoothly.",
+                                "Carry out EOH changes and hemming correction; perform trim line welding and draw die welding.",
+                                "Operate the precision punch former machine and manufacture jigs and fixtures.",
+                                "Independently manage the manufacturing process and maintain shift-wise reports and documentation.",
+                                "Apply GD&T and operate turning, milling, grinding, jig boring, and shaping machines to meet quality standards.",
+                                "Lead and coordinate team members to complete tool maintenance tasks on schedule."
+                            ],
+                            "tags": []
                         }
                     }
                 },
                 {
                     "id": 2,
                     "img": "",
-                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIcon": "fa-solid fa-industry",
                     "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2021, "month": 11},
-                    "dateEnd": {"year": 2025, "month": 5},
+                    "dateStart": {"year": 2017, "month": 3},
+                    "dateEnd": {"year": 2019, "month": 3},
                     "locales": {
                         "en": {
-                            "title": "{{Application}} Developer",
+                            "title": "Tooling Engineer | Tool Room",
                             "province": "",
-                            "country": "",
-                            "institution": "Vega Intellisoft Solutions",
-                            "text": "",
+                            "country": "Malaysia",
+                            "institution": "BL MOULDING SDN BHD",
+                            "text": "Established in 1992; engaged in metal fabrication, metal stamping, and tool and die making. Provides custom-made tools and dies, metal stamping, assemblies, and taping for air-conditioning, heat-exchanger, refrigeration, and gondola shelving components, as well as home and electrical appliance products.",
                             "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI"]
-                        },
-                        "es": {
-                            "title": "Desarrollador de {{Aplicaciones}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Vega Intellisoft Solutions",
-                            "text": "",
-                            "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI"]
-                        },
-                        "fr": {
-                            "title": "Développeur d'{{applications}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Vega Intellisoft Solutions",
-                            "text": "",
-                            "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI"]
-                        },
-                        "ko": {
-                            "title": "{{애플리케이션}} 개발자",
-                            "province": "",
-                            "country": "",
-                            "institution": "Vega Intellisoft Solutions",
-                            "text": "",
-                            "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI"]
-                        },
-                        "ms": {
-                            "title": "Pembangun {{Aplikasi}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Vega Intellisoft Solutions",
-                            "text": "",
-                            "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI"]
-                        },
-                        "ar": {
-                            "title": "مطور {{تطبيقات}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "Vega Intellisoft Solutions",
-                            "text": "",
-                            "list": [],
-                            "tags": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap", "Material UI"]
+                            "tags": []
                         }
                     }
                 },
@@ -183,60 +101,53 @@
                     "img": "",
                     "faIcon": "fa-solid fa-gears",
                     "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2012, "month": 6},
-                    "dateEnd": {"year": 2020, "month": 4},
+                    "dateStart": {"year": 2016, "month": 5},
+                    "dateEnd": {"year": 2017, "month": 3},
                     "locales": {
                         "en": {
-                            "title": "{{New Product Development}} Engineer",
+                            "title": "Junior Engineer | Fitting & Assembly",
                             "province": "",
                             "country": "",
-                            "institution": "",
-                            "text": "Product development and engineering work.",
+                            "institution": "CAPARO ENGINEERING INDIA LIMITED",
+                            "text": "A leading manufacturer of press tools and a supplier of automobile body parts to leading companies, including Ashok Leyland and Honda.",
                             "list": [],
                             "tags": []
-                        },
-                        "es": {
-                            "title": "Ingeniero de {{Desarrollo de Nuevos Productos}}",
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-car-side",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2014, "month": 7},
+                    "dateEnd": {"year": 2016, "month": 4},
+                    "locales": {
+                        "en": {
+                            "title": "Junior Engineer | Die Maintenance",
                             "province": "",
                             "country": "",
-                            "institution": "",
-                            "text": "Trabajo de desarrollo de productos e ingeniería.",
+                            "institution": "JBM AUTO SYSTEM PRIVATE LIMITED",
+                            "text": "A leading manufacturer of automobile body parts and sub-parts in BIW (Body-in-White) condition and a supplier of auto parts to Nissan Motor India.",
                             "list": [],
                             "tags": []
-                        },
-                        "fr": {
-                            "title": "Ingénieur en {{développement de nouveaux produits}}",
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-wrench",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2012, "month": 6},
+                    "dateEnd": {"year": 2014, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "Diploma Trainee | Die Maintenance",
                             "province": "",
                             "country": "",
-                            "institution": "",
-                            "text": "Travaux de développement de produits et d'ingénierie.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "ko": {
-                            "title": "{{신제품 개발}} 엔지니어",
-                            "province": "",
-                            "country": "",
-                            "institution": "",
-                            "text": "제품 개발 및 엔지니어링 업무.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "ms": {
-                            "title": "Jurutera {{Pembangunan Produk Baharu}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "",
-                            "text": "Kerja pembangunan produk dan kejuruteraan.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "ar": {
-                            "title": "مهندس {{تطوير منتجات جديدة}}",
-                            "province": "",
-                            "country": "",
-                            "institution": "",
-                            "text": "أعمال تطوير المنتجات والهندسة.",
+                            "institution": "MYOUNG SHIN INDIA AUTOMOTIVE PRIVATE LIMITED",
+                            "text": "A leading manufacturer of automobile body parts in BIW condition, supplying door and floor parts to Hyundai Motor India for models including the Accent, Santro, i10, and i20.",
                             "list": [],
                             "tags": []
                         }

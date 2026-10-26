@@ -25,12 +25,6 @@
             "faIcon": "fa-solid fa-briefcase"
         },
         {
-            "id": "achievements",
-            "categoryId": "showcase",
-            "jsonPath": "/data/sections/achievements.json",
-            "faIcon": "fa-solid fa-award"
-        },
-        {
             "id": "contact",
             "categoryId": "more",
             "jsonPath": "/data/sections/contact.json",
